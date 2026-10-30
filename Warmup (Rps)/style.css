@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 40px;
+  background: #1e1e2e;
+  color: #eee;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#score {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#buttons button {
+  padding: 12px 24px;
+  margin: 0 6px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background: #4a6fa5;
+  color: white;
+  cursor: pointer;
+}
+
+#buttons button:hover {
+  background: #5a7fb5;
+}
+
+#result {
+  margin: 30px auto;
+  max-width: 500px;
+  min-height: 60px;
+  padding: 15px;
+  background: #2a2a3e;
+  border-radius: 8px;
+}
+
+#reset {
+  padding: 8px 16px;
+  background: #b04040;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
